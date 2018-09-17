@@ -28,10 +28,12 @@ class Search extends Component {
 	render() {
 		const { inputValue } = this.state;
 		return (<div>
-			<input 
+			<input
 				type="text"
 				value={inputValue}
 				onChange={this.onSearchTermChanged} />
+			<datalist>
+			</datalist>	
 			</div>	
 		);
 	}

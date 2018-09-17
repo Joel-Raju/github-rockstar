@@ -2,13 +2,15 @@
   "name": "github-rockstar",
   "version": "0.1.0",
   "private": true,
-  "devDependencies": {
-    "react-scripts": "1.0.17"
-  },
   "dependencies": {
+    "bulma": "^0.7.1",
+    "lodash": "^4.17.11",
     "react": "^16.2.0",
     "react-apollo": "^2.0.4",
     "react-dom": "^16.2.0",
+    "react-redux": "^5.0.7",
+    "react-router": "^4.3.1",
+    "reselect": "^3.0.1",
     "styled-components": "^2.4.0"
   },
   "scripts": {
@@ -16,5 +18,17 @@
     "build": "react-scripts build",
     "test": "react-scripts test --env=jsdom",
     "eject": "react-scripts eject"
+  },
+  "devDependencies": {
+    "react-scripts": "1.0.17",
+    "babel-eslint": "^8.2.6",
+    "eslint": "^4.19.1",
+    "eslint-config-airbnb": "^17.0.0",
+    "eslint-plugin-import": "^2.12.0",
+    "eslint-plugin-jsx-a11y": "^6.0.3",
+    "eslint-plugin-react": "^7.10.0",
+    "prettier-eslint": "^8.8.2",
+    "react-app-rewire-import": "^1.0.1",
+    "react-app-rewired": "^1.5.2"
   }
 }
